@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Products <button class="btn btn-success" (click)="logout()">Logout</button></h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Price</th>
+        <th>Product Id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.name }}</td>
+        <td>{{ product.company }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.product_id }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

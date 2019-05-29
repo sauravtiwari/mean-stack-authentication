@@ -1,4 +1,4 @@
-
+install mongodb
  Run "npm install"
  Run  "npm install --save-dev @angular-devkit/core"
  Run "npm start"
